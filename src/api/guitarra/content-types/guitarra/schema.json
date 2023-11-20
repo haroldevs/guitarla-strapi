@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guitarras",
+  "info": {
+    "singularName": "guitarra",
+    "pluralName": "guitarras",
+    "displayName": "Guitarras",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "blocks",
+      "required": true
+    },
+    "precio": {
+      "type": "integer"
+    }
+  }
+}
